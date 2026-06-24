@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "DavidAnson.vscode-markdownlint",
+    "editorconfig.editorconfig",
+    "redhat.vscode-yaml",
+    "tombi-toml.tombi",
+    "esbenp.prettier-vscode",
+    "charliermarsh.ruff",
+    "bittorala.mdformat",
+    "ms-python.python"
+  ]
+}

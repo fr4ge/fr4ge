@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: Chris Wilson <christopher.david.wilson@gmail.com>
+#
+# SPDX-License-Identifier: Apache-2.0 OR MIT
+
+version = 1
+SPDX-PackageName = "fr4ge"
+SPDX-PackageSupplier = "Chris Wilson <christopher.david.wilson@gmail.com>"
+SPDX-PackageDownloadLocation = "https://github.com/fr4ge/fr4ge"
+
+[[annotations]]
+SPDX-FileCopyrightText = "Chris Wilson <christopher.david.wilson@gmail.com>"
+SPDX-License-Identifier = "Apache-2.0 OR MIT"
+path = [
+  "CHANGELOG.md",
+  "CONTRIBUTING.md",
+  "README.md",
+  ".python-version",
+  "uv.lock",
+  "**.json",
+]
+precedence = "aggregate"

@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: Chris Wilson <christopher.david.wilson@gmail.com>
+#
+# SPDX-License-Identifier: Apache-2.0 OR MIT
+
+# https://mdformat.readthedocs.io/en/stable/users/configuration_file.html
+
+number = true
+wrap = "no"

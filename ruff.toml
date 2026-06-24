@@ -1,0 +1,42 @@
+# SPDX-FileCopyrightText: Chris Wilson <christopher.david.wilson@gmail.com>
+#
+# SPDX-License-Identifier: Apache-2.0 OR MIT
+
+line-length = 100
+
+[format]
+docstring-code-format = true
+
+[lint]
+ignore = [
+  # flake8-commas (COM)
+  "COM812", # https://docs.astral.sh/ruff/rules/missing-trailing-comma/
+
+  # flake8-print (T20)
+  "T201", # https://docs.astral.sh/ruff/rules/print/
+  "T203", # https://docs.astral.sh/ruff/rules/p-print/
+]
+select = [
+  "ALL",
+]
+
+[lint.pycodestyle]
+max-doc-length = 80
+
+[lint.pydocstyle]
+convention = "google"
+
+[lint.isort]
+known-first-party = [
+  "fr4ge",
+]
+lines-between-types = 1
+
+[lint.per-file-ignores]
+"**/tests/**/*" = [
+  # flake8-annotations (ANN)
+  "ANN201", # https://docs.astral.sh/ruff/rules/missing-return-type-undocumented-public-function/
+
+  # flake8-bandit (S)
+  "S", # https://docs.astral.sh/ruff/rules/#flake8-bandit-s
+]

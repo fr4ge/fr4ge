@@ -1,0 +1,41 @@
+# SPDX-FileCopyrightText: Chris Wilson <christopher.david.wilson@gmail.com>
+#
+# SPDX-License-Identifier: Apache-2.0 OR MIT
+
+# https://yamllint.readthedocs.io/en/stable/configuration.html
+
+extends: default
+
+ignore-from-file: .gitignore
+
+rules:
+  braces:
+    forbid: false
+    min-spaces-inside: 0
+    max-spaces-inside: 0
+    min-spaces-inside-empty: -1
+    max-spaces-inside-empty: -1
+  brackets:
+    forbid: false
+    min-spaces-inside: 0
+    max-spaces-inside: 0
+    min-spaces-inside-empty: 0
+    max-spaces-inside-empty: 0
+  comments:
+    level: warning
+    min-spaces-from-content: 1 # needed for compatibility with Prettier
+  document-start:
+    present: false
+  float-values:
+    require-numeral-before-decimal: true
+  indentation:
+    spaces: 2 # must match indent_size in .editorconfig file
+  line-length:
+    max: 100 # must match max_line_length in .editorconfig file
+    allow-non-breakable-inline-mappings: true
+  quoted-strings:
+    required: only-when-needed
+    allow-quoted-quotes: true
+    quote-type: double
+  truthy:
+    check-keys: false
