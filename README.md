@@ -12,8 +12,8 @@ A set of experimental tools for managing the lifecycle of printed circuit board 
 
 ## Contributing
 
-See the [CONTRIBUTING.md](CONTRIBUTING.md) file for project contribution guidelines.
+See the [CONTRIBUTING.md](https://github.com/fr4ge/fr4ge/blob/main/CONTRIBUTING.md) file for project contribution guidelines.
 
 ## License
 
-See the [LICENSE.md](LICENSE.md) file for project licensing information.
+See the [LICENSE.md](https://github.com/fr4ge/fr4ge/blob/main/LICENSE.md) file for project licensing information.
